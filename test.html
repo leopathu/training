@@ -3,10 +3,125 @@
     <head>
         <title>"First page"</title>>
     </head>
-    <body style="background-color:#838487;">
-        <h style="border:5px solid palegreen">Welcome<br></h>
-        <img src="image.png" alt="youtube" width="100" height="120">
-        <a style=color: red;hrefimage.png="https://www.youtube.com">Click here</a>>
+    <style>
+        table,th,td{
+            border: 2px solid black;
+            border-radius: 15px;
+            border-spacing: 15px;
+        }
+        th,td{
+            background-color: black;
+            text-align: center;
+        }
+        tr:hover{
+            color: white;
+        }
+    </style>
+    <body style="background-color:rgb(168, 212, 181);background-image: url(/home/quilltez/Downloads/bgi.webp);background-size:cover">
+        <p>"paragraph tag"</p>
+        <h1>"Heading tag"</h1>>
+        <strong>"strong tag makes the word bold"</strong>
+        <p><em>"em tag amphasize the word"</em></p>
+        <p><abbr title="world wide web">www</abbr> abbr tag use for abbreviation</p>
+        <address>
+            written by<a href="mailto:sriganesh507@gmail.com">sri</a><br>
+            visit us at:<br>
+            example.com
+        </address>
+        <p><bdo dir="rtl">bi directional ovrerride tag reverse the line</bdo></p>
+        <blockquote href="http://www.worldwildlife.org/who/index.html"">Hello World</blockquote>
+        <p>q for shot quotation<q> q for short quotation</q></p>>
+        <p><cite>cite tag defines the title</cite></p>>
+        <a href="https://www.w3schools.com/" target="_top"> w3schools</a>
+        <img src="/home/quilltez/Downloads/1544077479_Circle-Shape.webp" alt="circle" usemap="#test" height="100" width="100">
+        <map name="test">
+            <area shape="circle" coords="50,50,20" alt="circle" href="https://en.wikipedia.org/wiki/Circle">
+        </map>
+        <picture>
+            <source media="(min-width: 650px)" srcset="/home/quilltez/Downloads/bgi.webp" height="25" width="50">
+            <source media="(min-width: 465px)" srcset="/home/quilltez/Downloads/1544077479_Circle-Shape.webp">
+        </picture>
+        <table style="width:100%">
+            <caption>MOVIES</caption>
+            <tr>
+                <th>NO</th>
+                <th>NAME</th>
+                <th>RATING</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Your Name</td>
+                <td>9.0</td>   
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Weathering with you</td>
+                <td>8.9</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Hello World</td>
+                <td>8.0</td>
+            </tr>
+        </table>
+        <ul>
+            <li>s</li>
+            <li>r</li>
+            <li>i</li>
+        </ul>
+        <ol>
+            <li>s</li>
+            <li>r</li>
+            <li>i</li>
+        </ol>
+        <dl>
+            <dt>cpu</dt>
+            <dd>central processsing unit</dd>
+        </dl>
+        <form action="/home/quilltez/Downloads/sample.txt">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="type here"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="type here"><br>
+            <input type="submit" value="SUBMIT">
+        </form><br>
+        <form>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+        </form>
+        <form action="/home/quilltez/Downloads/sample.txt">
+            <label for="movie">Choose A Movie</label>
+            <select id="movie" name="movie">
+                <option value="Your Name">Your Name</option>
+                <option value="Hello World">Hello World</option>
+                <option value="Weathering with you">Weathering with you</option>
+            </select>
+            <input type="submit">
+        </form>
+        <br><br>
+        <form action="/home/quilltez/Downloads/sample.txt"">
+            <textarea name="message" rows="15" columns="25">Hello</textarea>
+            <br><br>
+            <input type="submit">
+        </form><br><br>
+        <form action="/home/quilltez/Downloads/sample.txt">
+        <label for="datemax">Choose a date before 1980-01-01</label>
+        <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+        <label for="datemin">Choose a date after 2000-01-01</label>
+        <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+        <label for="quantity">Quantity (Between 1 and 5)</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5"><br><br>
+        <input type="submit" value="SUBMIT">
+        </form><br><br>
+        <form action="/home/quilltez/Downloads/sample.txt">
+            <label for="files">Choose a file</label>
+            <input type="file" id="files" name="files" multiple><br><br>
+            <input type="submit" value="SUBMIT">
+        </form>
     </body>>
 
 </html>
