@@ -1,0 +1,171 @@
+h{
+    text-align: left;
+    font:bold;
+    margin-left: 20px;
+    font-size: large;
+}
+p{
+    text-align: center;
+    font:italic;
+    font-family: 'Times New Roman';
+    color: rgb(15, 223, 15);
+}
+.tab1{
+    width: 50%;
+    border:5px black;
+    border-radius: 10px;
+    font-style: bold;
+    font-family: 'Segoe UI';
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tab1 th,td{
+        border: 3px;
+        border-color:black;
+        color: white;
+        border-radius: 10px;
+        border-style: solid;
+        border-spacing: 5px;
+        background-color:rgba(32, 120, 160, 0.8);
+}
+
+p.apollo{
+    font-family: fantasy;
+    text-align: justify;
+    background-image: url('/home/quilltez/Downloads/fbc.webp');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:center;
+    margin-left: 180px;
+    margin-right: 180px;
+    outline-offset: 15px;
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: black;
+    text-indent: 50px;
+}
+.t1{
+    color:teal;
+    font-size: large;
+    border: 5px black;
+    border-style: dotted;
+    border-left-style:solid;
+    border-right-style: solid;
+    border-radius: 5px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.t2{
+    color:rgb(128, 128, 128,0.9);
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-style:solid;
+    text-decoration-thickness:3px;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+    word-spacing: 5px;
+}
+#i1{
+    font-size: 40px;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;;
+}
+#lin:link{
+    color: black;
+    background-color: white;
+    text-align:"center";
+    font-size:40px;
+}
+#lin:visited{
+    color: black;
+    background-color: white;
+    text-align:"center";
+    font-size:40px;
+}
+#lin:hover{
+    color:red;
+    background-color:white;
+    text-decoration: underline;
+    text-align:"center";
+    font-size:40px;
+    font-family: monospace;
+}
+#lin:active{
+    color:blue;
+    background-color: darkgrey;
+    text-decoration: underline;
+    text-align:"center";
+    font-size:40px;
+    font-family: monospace;
+}
+span{
+    text-transform: capitalize;
+    cursor: wait;
+    font-size:30px;
+    color:black;
+}
+.t3{
+    list-style-type:circle;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 45%;
+}
+.t4{
+    list-style-type: square;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 45%;
+}
+.t5{
+    list-style-type: lower-roman;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 45%;
+}
+.t6{
+    list-style-type: upper-alpha;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 45%;
+}
+.t7{
+
+    list-style-type: square;
+    list-style-position: inside;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+ul.t8{
+    background-color: blue;
+    padding:20px;
+}
+ul.t8 li{
+    background-color: lightblue;
+    padding:5px;
+    margin-left: 25px;
+}
+ol.t9{
+    background-color: green;
+    padding:16px;
+}
+ol.t9 li{
+    background-color: teal;
+    padding:4px;
+    margin:5px;
+    margin-left:25px;
+}
+.tablesty{
+    border:5px;
+    border-collapse: collapse;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-color:black
+}
+.tablesty th,td{
+    background-color: green;
+    border-color: black;
+    border-spacing: 5px;
+    border-radius:10px;
+    text-align: center;
+    border-style: solid;
+}
