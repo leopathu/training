@@ -1,0 +1,42 @@
+.page-wrapper {
+    width: 1003px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid;
+}
+.layout-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.main-content-wrapper {
+    width: 75%;
+    border: 1px solid green;
+}
+.three-col-wrapper,
+.two-col-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+.two-col-wrapper > div {
+    padding: 10px;
+    width: 50%;
+}
+.three-col-wrapper > div {
+    width: 33%;
+}
+.sidebar-wrapper {
+    width: 25%;
+    border: 1px solid blue;
+}
+.logo img {
+    width: 500px;
+}
+.news-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.news-wrapper .text-wrapper {
+    width: 64%;
+    text-align: left;
+}
