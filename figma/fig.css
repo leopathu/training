@@ -1,0 +1,351 @@
+#row{
+    display: flex;
+    position: relative;
+    width: 1680px;
+    height: 60px;
+    background: #FFFFFF;
+    left:100px;
+}
+#hwfp-img{
+    position: absolute;
+    width: 122.07px;
+    height: 32px;
+    left: 89px;
+    top: 14px;
+}
+#hwfp-txt1{
+
+    position: absolute;
+    width: 65px;
+    height: 18px;
+    left: 273px;
+    top: 21px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    
+    /* Actionable Item */
+    
+    color: #18A0FB;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#hwfp-txt2{
+
+    position: absolute;
+    width: 53px;
+    height: 18px;
+    left: 378px;
+    top: 21px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    /* Actionable Item */
+
+    color: #18A0FB;
+}
+#hwfp-txt3{
+
+    position: absolute;
+    width: 89px;
+    height: 18px;
+    left: 471px;
+    top: 21px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    /* Actionable Item */
+
+    color: #18A0FB;
+}
+#hwfp-txt4{
+
+    position: absolute;
+    width: 61px;
+    height: 18px;
+    left: 600px;
+    top: 21px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    
+    /* Actionable Item */
+    
+    color: #18A0FB;
+}
+#hwfp-button1{
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    left: 1328px;
+    top: 10px;
+}
+
+#hwfp-button2{
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    left: 1470px;
+    top: 10px;
+    color:white;
+}
+
+.body-wrapper-fp{
+    position: absolute;
+    width: 1680px;
+    height: 960px;
+    left: 100px;
+    top: 60px;
+    background: #E5E5E5;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.para-wrapper{
+    position: absolute;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 80px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #000000;
+    width: 1392px;
+    height: 80px;
+    left: 144px;
+    top: 632px;
+}
+#bwfp-button3{
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    left: 692px;
+    top: 144px;
+    color:white;
+}
+.first-row-sp, .second-row-sp{
+    display:flex;
+    justify-content: space-between;
+    width:100%
+}
+.second-page{
+
+position: absolute;
+width: 1680px;
+height: 852px;
+left: 31px;
+top: 1110px;
+
+background: #FFFFFF;
+}
+.first-sp{
+    position: absolute;
+    width: 750px;
+    height: 144px;
+    left: 80px;
+    top: 120px;
+    bottom: 588px;
+}
+.fr-firstcolumn{
+    position: absolute;
+    width: 686px;
+    height: 36px;
+    left: 80px;
+    top: 324px;
+}
+.fr-secondcolumn{
+    position: absolute;
+    width: 686px;
+    height: 36px;
+    left: 914px;
+    top: 324px;
+}
+.sr-firstcolumn{
+    position: absolute;
+    width: 686px;
+    height: 36px;
+    left: 80px;
+    top: 606px;
+}
+.sr-secondcolumn{
+    position: absolute;
+    width: 686px;
+    height: 36px;
+    left: 914px;
+    top: 606px;
+}
+#button1,#button4,#button5,#button6,#button7{
+    background-color: white;
+    border: 1px solid #18A0FB;
+    border-radius: 4px;
+    color: #18A0FB;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#button2{
+    background-color: #18A0FB;
+    border: 1px solid #18A0FB;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#button3{
+    background-color: #18A0FB;
+    border: 1px solid #18A0FB;
+    border-radius: 4px;
+    color: white;
+    padding: 0px 25px 0px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;  
+}
+.third-page{
+    position: absolute;
+    width: 1680px;
+    height: 600px;
+    left: 0px;
+    top: 1968px;
+    background: #FFFFFF;
+}
+.two-column-tp{
+    display:flex;
+    justify-content: space-between;
+}
+.sc-tp{
+    position: absolute;
+    width: 686px;
+    height: 36px;
+    left: 914px;
+    top: 165px;
+}
+.fourth-page{
+    position: absolute;
+    width: 1680px;
+    height: 600px;
+    left: 0px;
+    top: 2568px;
+    background: #F5F5F5;
+}
+.two-column-fop{
+    display:flex;
+    justify-content: space-between;
+}
+.fc-fop{
+    position: absolute;
+    width: 686px;
+    height: 36px;
+    left: 80px;
+    top: 225px;
+}
+.sc-fop{
+    position: absolute;
+    width: 750px;
+    height: 440px;
+    left: 850px;
+    top: 80px;
+}
+h1,h3{
+    font: bold;
+}
+.fifth-page{
+    position: absolute;
+    width: 1680px;
+    height: 198px;
+    left: 0px;
+    top: 3168px;
+    background: #FFFFFF;
+}
+.fifthpage-sen1{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 15%;
+    bottom: 0%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 72px;
+
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #000000;
+}
+.fifthpage-sen2{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 36.67%;
+    bottom: -380.56%;
+    border:1px white;
+    margin: 0px 325px 0px 275px;
+
+    /* Body P Large */
+    text-align:center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+    letter-spacing: -0.015em;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+.first-row-fip{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 173px;
+    height: 76px;
+    left: 368px;
+    top: 402px;
+    padding: 40px;
+    }
+.second-row-fip{
+    display: flex;
+    justify-content: space-around;
+}
