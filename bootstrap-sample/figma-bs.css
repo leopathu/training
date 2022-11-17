@@ -1,0 +1,21 @@
+.nav-firstpage{
+   display:flex;
+   padding:20px;
+}
+#text-firstpage{
+    margin-left: 60px;
+}
+#button-firstpage{
+    margin-left: auto;
+    margin-right: 80px;
+}
+.cus-bg {
+    background-color: #E5E5E5 ;
+}
+.secondpage{
+    padding-left:80px;
+    padding-right:80px;
+}
+.pl{
+    padding-bottom: 120px;
+}
