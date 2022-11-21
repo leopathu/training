@@ -10,12 +10,199 @@
     margin-right: 80px;
 }
 .cus-bg {
-    background-color: #E5E5E5 ;
+    background-image: url('img/Rectangle-bg.png');
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    background-position:center center;
 }
-.secondpage{
-    padding-left:80px;
-    padding-right:80px;
+.first-page-wrapper img{
+    padding:414px 0px 86px 0px;
 }
-.pl{
+.first-page-wrapper h1{
+    padding:0px 0px 40px 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: -0.015em;
+}
+.first-page-wrapper-button{
+    padding:0px 0px 156px 0px;
+}
+.text-secondpage{
+    padding:120px 0px 60px 73px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: -0.015em;
+}
+.colsp{
+    padding-left: 80px;
+}
+.colsp h3{
+    padding-bottom: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+}
+.colsp p{
+    padding-bottom: 32px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+
+color: rgba(0, 0, 0, 0.8);
+}
+.colsp-button1{
+    padding-bottom: 60px;
+}
+.colsp-button2{
+    padding-bottom: 66px;
+}
+.img-thirdpage img{
+    width:100%;
+    height:100%;
+}
+.img-thirdpage{
+    padding:74px 0px 0px 63px;
+}
+.txt-thirdpage h3{
+    padding:267px 0px 0px 80px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+}
+.txt-thirdpage p{
+    padding:23px 0px 146px 80px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8);
+}
+.thirdpage{
+    padding-bottom: 86px;
+}
+.img-fourthpage1 img{
+    width:100%;
+    height:100%;
+}
+.img-fourthpage1{
+    padding:74px 0px 0px 63px;
+}
+.txt-fourthpage1 h3{
+    padding:267px 0px 0px 80px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+}
+.txt-fourthpage1 p{
+    padding:23px 0px 146px 80px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8);
+}
+.fourthpage{
+    padding-bottom: 80px;
+    background: #F5F5F5;
+}
+.img-fifthpage1{
+    padding:80px 0px 0px 0px;
+}
+.img-fifthpage2{
+    padding:64px 0px 120px 0px;
+}
+.img-fifthpage1 img,.img-fifthpage2 img{
+    padding:0px 0px 0px 84px;
+}
+.txt-fifthpage h1{
+    padding:120px 0px 30px 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: -0.015em;
+}
+.txt-fifthpage h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8);
+}
+.sixthpage{
+    padding:120px 0px 120px 80px;
+    background: #F5F5F5;
+}
+.sixthpage1-button1{
+    padding:24px 0px 0px 84px;
+}
+.sixthpage1-button2{
+    padding:24px 0px 0px 45px;
+}
+.sixthpage1 h2{
+    padding-left: 80px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8);
+}
+.seventhpage a{
+    color: black;
+}
+.bar-seventhpage{
+    padding:120px 0px 48px 80px;
+    border-bottom: 1px solid black;
+}
+.img-seventhpage{
+    padding:80px 0px 0px 0px;
+}
+.img-seventhpage img{
+    padding-right:21px;
+}
+.txt-seventhpage p{
+    padding-top: 40px;
     padding-bottom: 120px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* identical to box height, or 160% */
+
+text-align: center;
+letter-spacing: -0.015em;
+
+color: rgba(0, 0, 0, 0.8);
+
 }
